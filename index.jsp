@@ -104,7 +104,7 @@
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="about.jsp" class="nav-item nav-link">About</a>
                             <a href="course.html" class="nav-item nav-link">Courses</a>
-                            <a href="teacher.html" class="nav-item nav-link">Teachers</a>
+                            <a href="teacher.jsp" class="nav-item nav-link">Teachers</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -277,320 +277,327 @@
 </div>
 
 
-    <!-- Category Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Subjects</h5>
-                <h1>Explore Top Subjects</h1>
+     
+
+<!-- Category Section Start -->
+<div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+        <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Subjects</h5>
+            <h1>Explore Top Subjects</h1>
+        </div>
+        <div class="row">
+            <!-- Web Design Category -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                    <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                    <a class="cat-overlay text-white text-decoration-none" href="#" 
+                       data-bs-toggle="modal" data-bs-target="#categoryModal" 
+                       data-title="Web Design" 
+                       data-desc="Web design is the planning and creation of websites. This includes a number of separate skills that all fall under the umbrella of web design. Some examples of these skills are information architecture, user interface, site structure, navigation, layout, colors, fonts, and overall imagery." 
+                       data-img="img/cat-1.jpg" 
+                       data-video="https://www.youtube.com/embed/qthkkHPNAYQ?start=5"
+                       data-price="2000"> 
+                        <h4 class="text-white font-weight-medium">Web Design</h4>
+                        <span>&#8377;2000</span>
+                    </a>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-1.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="webdeveloping.jsp"> 
-                            <h4 class="text-white font-weight-medium">Web Design</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-2.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Development</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-3.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Game Design</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-4.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Apps Design</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-5.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Marketing</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-6.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Research</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-7.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">Content Writing</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
-                        <img class="img-fluid" src="img/cat-8.jpg" alt="">
-                        <a class="cat-overlay text-white text-decoration-none" href="">
-                            <h4 class="text-white font-weight-medium">SEO</h4>
-                            <span>100 Courses</span>
-                        </a>
-                    </div>
+            
+            <!-- Data Science Category -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                    <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                    <a class="cat-overlay text-white text-decoration-none" href="#" 
+                       data-bs-toggle="modal" data-bs-target="#categoryModal" 
+                       data-title="Data Science" 
+                       data-desc="Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data. In simpler terms, data science is about obtaining, processing, and analyzing data to gain insights for many purposes." 
+                       data-img="img/cat-2.jpg" 
+                       data-video="https://www.youtube.com/embed/FsSrzmRawUg"
+                       data-price="2500"> 
+                        <h4 class="text-white font-weight-medium">Data Science</h4>
+                        <span>&#8377;2500</span>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Category Start -->
+</div>
+<!-- Category Section End -->
 
-
-    <!-- Courses Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Courses</h5>
-                <h1>Our Popular Courses</h1>
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="categoryModal" tabindex="-1" aria-labelledby="categoryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="categoryModalLabel">Category Title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/course-1.jpg" alt="">
-                        <div class="bg-secondary p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
-                            </div>
-                            <a class="h5" href="webdeveloping.jsp">Web design & development courses for beginner</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">&#8377;3500/month</h5>
-                                </div>
+            <div class="modal-body">
+                <img id="categoryImg" src="" class="img-fluid mb-3" alt="">
+                <div class="text-center mt-4">
+                    <a href="#" id="purchaseNowBtn" class="btn btn-primary">Purchase Now</a>
+                </div>
+                <p id="categoryDesc"></p>
+                <div id="videoContainer" class="mt-3">
+                    <iframe id="categoryVideo" width="100%" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    var categoryModal = document.getElementById('categoryModal');
+    categoryModal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget;
+        var title = button.getAttribute('data-title');
+        var desc = button.getAttribute('data-desc');
+        var imgSrc = button.getAttribute('data-img');
+        var videoSrc = button.getAttribute('data-video');
+        var price = button.getAttribute('data-price');
+
+        document.getElementById('categoryModalLabel').textContent = title;
+        document.getElementById('categoryDesc').textContent = desc;
+        document.getElementById('categoryImg').src = imgSrc;
+        document.getElementById('categoryVideo').src = videoSrc;
+
+        // Ensure the Rupee symbol displays correctly
+        var purchaseBtn = document.getElementById('purchaseNowBtn');
+        purchaseBtn.href = "purchasenow.jsp?courseTitle=" + encodeURIComponent(title) + "&coursePrice=" + encodeURIComponent("₹" + price);
+    });
+
+    categoryModal.addEventListener('hidden.bs.modal', function () {
+        document.getElementById('categoryVideo').src = "";
+    });
+</script>
+
+
+
+   <!-- Courses Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Courses</h5>
+            <h1>Our Popular Courses</h1>
+        </div>
+        <div class="row">
+            <!-- Web Design Course -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="rounded overflow-hidden mb-2">
+                    <img class="img-fluid" src="img/course-1.jpg" alt="">
+                    <div class="bg-secondary p-4">
+                        <div class="d-flex justify-content-between mb-3">
+                            <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
+                            <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
+                        </div>
+                        <a class="h5" href="#" data-toggle="modal" data-target="#courseModal1">Graphic Design </a>
+                        <div class="border-top mt-4 pt-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                <h5 class="m-0">&#8377;3500/month</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/course-2.jpg" alt="">
-                        <div class="bg-secondary p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
-                            </div>
-                            <a class="h5" href="">Marketing courses for beginner</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">&#8377;1500/month</h5>
-                                </div>
+            </div>
+
+            <!-- Marketing Course -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="rounded overflow-hidden mb-2">
+                    <img class="img-fluid" src="img/course-2.jpg" alt="">
+                    <div class="bg-secondary p-4">
+                        <div class="d-flex justify-content-between mb-3">
+                            <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
+                            <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
+                        </div>
+                        <a class="h5" href="#" data-toggle="modal" data-target="#courseModal2"> Digital Marketing</a>
+                        <div class="border-top mt-4 pt-4">
+                            <div class="d-flex justify-content-between">
+                                <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                <h5 class="m-0">&#8377;1500/month</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/course-3.jpg" alt="">
-                        <div class="bg-secondary p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
-                            </div>
-                            <a class="h5" href="">App design & development courses for beginner</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">&#8377;2500/month</h5>
-                                </div>
-                            </div>
+            </div>
+            
+            <!-- Add More Courses Here with unique data-target -->
+
+        </div>
+    </div>
+</div>
+<!-- Courses End -->
+
+<!-- Course Modals -->
+<!-- Web Design & Development Modal -->
+<div class="modal fade" id="courseModal1" tabindex="-1" role="dialog" aria-labelledby="courseModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="courseModalLabel1">Graphic Design</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Master the principles of graphic design, including typography, color theory, branding, and Adobe Creative Suite.</p>
+                <p><strong>Duration:</strong> 3 Months</p>
+                <p><strong>Price:</strong> ₹3500/month</p>
+                <p><strong>Rating:</strong> 4.7 ⭐ (280 reviews)</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="enroll.jsp?course=graphicdesign" class="btn btn-primary">Enroll Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Marketing Course Modal -->
+<div class="modal fade" id="courseModal2" tabindex="-1" role="dialog" aria-labelledby="courseModalLabel2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="courseModalLabel2">Digital Marketing</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Learn digital marketing strategies, including SEO, PPC advertising, social media marketing, email marketing, and content marketing.</p>
+                <p><strong>Duration:</strong> 2 Months</p>
+                <p><strong>Price:</strong> ₹1500/month</p>
+                <p><strong>Rating:</strong> 4.6 ⭐ (280 reviews)</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="enroll.jsp?course=digitalmarketing" class="btn btn-primary">Enroll Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add More Modals Here for Other Courses -->
+
+<!-- Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Registration Offers Section -->
+<div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+                <div class="row">
+                    <%
+                        Connection con = null;
+                        PreparedStatement ps = null;   
+                        try {
+                            Class.forName("com.mysql.jdbc.Driver"); // Updated driver
+                            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/study", "root", "");
+                            String query = "SELECT * FROM registrationoffers LIMIT 3"; // Fetch max 3 offers
+                            ps = con.prepareStatement(query);
+                            rs = ps.executeQuery();
+                            while (rs.next()) {
+                    %>
+                    <div class="col-md-12">
+                        <div class="offer-card text-center">
+                            <h3><%= rs.getString("title") %></h3>
+                            <h4><%= rs.getString("discount") %> % Off</h4>
+                            <p><%= rs.getString("description") %></p>
+                            <p><strong>Feature 1:</strong> <%= rs.getString("feature_1") %></p>
+                            <p><strong>Feature 2:</strong> <%= rs.getString("feature_2") %></p>
+                            <p><strong>Feature 3:</strong> <%= rs.getString("feature_3") %></p>
                         </div>
                     </div>
+                    <%
+                            }
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        } finally {
+                            try {
+                                if (rs != null) rs.close();
+                                if (ps != null) ps.close();
+                                if (con != null) con.close();
+                            } catch (Exception ex) {
+                                ex.printStackTrace();
+                            }
+                        }
+                    %>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/course-4.jpg" alt="">
-                        <div class="bg-secondary p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
-                            </div>
-                            <a class="h5" href="">Content Writing courses for beginner</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">&#8377;1000/month</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/course-5.jpg" alt="">
-                        <div class="bg-secondary p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
-                            </div>
-                            <a class="h5" href="">SEO courses for beginner</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">&#8377;2000/month</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/course-6.jpg" alt="">
-                        <div class="bg-secondary p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
-                            </div>
-                            <a class="h5" href="">Game design & development courses for beginner</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
-                                    <h5 class="m-0">&#8377;3000/month</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="card border-0">
+                    <!-- You can add a form or image here if needed -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Courses End -->
+</div>
+<!-- Registration Offers Section End -->
+    <%@ page import="java.sql.*" %>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 
+<div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+        <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Teachers</h5>
+            <h1>Meet Our Teachers</h1>
+        </div>
+        <div class="row">
+            <%
 
-    <!-- Registration Start -->
-    <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-7 mb-5 mb-lg-0">
-                    <div class="mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Need Any Courses</h5>
-                        <h1 class="text-white">30% Off For New Students</h1>
+                try {
+                    Class.forName("com.mysql.jdbc.Driver");
+                    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/study", "root", "");
+
+                    String sql = "SELECT * FROM teachers";
+                    pstmt = conn.prepareStatement(sql);
+                    rs = pstmt.executeQuery();
+
+                    while (rs.next()) {
+            %>
+            <div class="col-md-6 col-lg-3 text-center team mb-4">
+                <div class="team-item rounded overflow-hidden mb-2">
+                    <div class="team-img position-relative">
+                        <img class="img-fluid" src="<%= rs.getString("image") %>" alt="Teacher Image">
+                        <div class="team-social">
+                            <% if (rs.getString("twitter") != null && !rs.getString("twitter").isEmpty()) { %>
+                                <a class="btn btn-outline-light btn-square mx-1" href="<%= rs.getString("twitter") %>" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <% } %>
+                            <% if (rs.getString("facebook") != null && !rs.getString("facebook").isEmpty()) { %>
+                                <a class="btn btn-outline-light btn-square mx-1" href="<%= rs.getString("facebook") %>" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <% } %>
+                            <% if (rs.getString("linkedin") != null && !rs.getString("linkedin").isEmpty()) { %>
+                                <a class="btn btn-outline-light btn-square mx-1" href="<%= rs.getString("linkedin") %>" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <% } %>
+                        </div>
                     </div>
-                    <p class="text-white">At Innovative Learning, we offer a wide range of online courses designed to help you succeed. Whether you're looking to gain new skills or explore exciting new fields, we've got you covered! Take advantage of our special offer—30% off for new students—and start learning today.</p>
-                    <ul class="list-inline text-white m-0">
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Expertly crafted courses with hands-on learning experiences.	</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i> Flexible learning at your own pace to fit your busy schedule.</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i> Proven success with thousands of satisfied students advancing in their careers.</li>
-                    </ul>
-                </div>
-                <div class="col-lg-5">
-                    <div class="card border-0">
-                        
-                       
+                    <div class="bg-secondary p-4">
+                        <h5><%= rs.getString("name") %></h5>
+                        <p class="m-0"><%= rs.getString("designation") %></p>
                     </div>
                 </div>
             </div>
+            <%
+                    }
+                } catch (Exception e) {
+                    out.println("<div class='alert alert-danger'>Error: " + e.getMessage() + "</div>");
+                } finally {
+                    try { if (rs != null) rs.close(); } catch (SQLException ignored) {}
+                    try { if (pstmt != null) pstmt.close(); } catch (SQLException ignored) {}
+                    try { if (conn != null) conn.close(); } catch (SQLException ignored) {}
+                }
+            %>
         </div>
     </div>
-    <!-- Registration End -->
-
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Teachers</h5>
-                <h1>Meet Our Teachers</h1>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-4">
-                    <div class="team-item rounded overflow-hidden mb-2">
-                        <div class="team-img position-relative">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h5>Jhon Doe</h5>
-                            <p class="m-0">Web Designer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
+</div>
     <!-- Testimonial Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
